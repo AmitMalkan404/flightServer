@@ -1,0 +1,52 @@
+{
+  "passengers": 115,
+  "company_name": "Arkia",
+  "flight_code": "AK1369",
+  "initial_location": {
+    "longitude": 35.046150985735935,
+    "latitude": 32.804886770992105,
+    "date_time": "2023-10-03T18:05:00Z"
+  },
+  "segments": [
+	{
+      "longitude": 35.029247,
+      "latitude": 32.846701,
+      "timespan_seconds": 20
+    },
+    {
+      "longitude": 33.7838581728078,
+      "latitude": 34.715837825543375,
+      "timespan_seconds": 600
+    },
+    {
+      "longitude": 33.4006309683435,
+      "latitude": 34.761582260631315,
+      "timespan_seconds": 30
+    },
+    {
+      "longitude": 32.677290076096746,
+      "latitude": 34.65620170572078,
+      "timespan_seconds": 20
+    },
+    {
+      "longitude": 32.59046918682597,
+      "latitude": 34.6991489434691,
+      "timespan_seconds": 10
+    },
+    {
+      "longitude": 32.528740961014,
+      "latitude": 34.70774018477817,
+      "timespan_seconds": 10
+    },
+    {
+      "longitude": 32.59046918682597,
+      "latitude": 34.6991489434691,
+      "timespan_seconds": 5
+    },
+    {
+      "longitude": 32.47092844217923,
+      "latitude": 34.72229300072505,
+      "timespan_seconds": 10
+    }
+  ]
+}

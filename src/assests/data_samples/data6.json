@@ -1,0 +1,52 @@
+{
+  "passengers": 120,
+  "company_name": "Israir",
+  "flight_code": "ISRA103",
+  "initial_location": {
+    "longitude": 35.04623290164464,
+    "latitude": 32.80472278476387,
+    "date_time": "2023-10-03T18:00:00Z"
+  },
+  "segments": [
+    {
+      "longitude": 35.04139834860693,
+      "latitude": 32.81584998438416,
+      "timespan_seconds": 60
+    },
+    {
+      "longitude": 34.992742619829706,
+      "latitude": 32.92563053445752,
+      "timespan_seconds": 180
+    },
+    {
+      "longitude": 30.70531057546592,
+      "latitude": 39.142851369681296,
+      "timespan_seconds": 1800
+    },
+    {
+      "longitude": 28.445545698504937,
+      "latitude": 44.73458875594726,
+      "timespan_seconds": 2100
+    },
+    {
+      "longitude": 23.00046362485893,
+      "latitude": 49.429524978143746,
+      "timespan_seconds": 2345
+    },
+    {
+      "longitude": 19.913764851718724,
+      "latitude": 50.09815749176304,
+      "timespan_seconds": 1200
+    },
+    {
+      "longitude": 19.807488281261964,
+      "latitude": 50.080873496240656,
+      "timespan_seconds": 400
+    },
+    {
+      "longitude": 19.768063885817856,
+      "latitude": 50.075443184354704,
+      "timespan_seconds": 360
+    }
+  ]
+}

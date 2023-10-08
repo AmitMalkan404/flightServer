@@ -1,0 +1,27 @@
+{
+  "passengers": 350,
+  "company_name": "El Al",
+  "flight_code": "LY001",
+  "initial_location": {
+    "longitude": 34.872222,
+    "latitude": 32.001111,
+    "date_time": "2023-10-03T18:00:00Z"
+  },
+  "segments": [
+    {
+      "longitude": 11.4056668,
+      "latitude": 40.2546221,
+      "timespan_seconds": 180
+    },
+    {
+      "longitude": -60.84775,
+      "latitude": 28.738866,
+      "timespan_seconds": 21600
+    },
+    {
+      "longitude": -80.152222,
+      "latitude": 26.074444,
+      "timespan_seconds": 180
+    }
+  ]
+}

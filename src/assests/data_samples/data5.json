@@ -1,0 +1,28 @@
+{
+    "passengers": 200,
+    "company_name": "Thai Airways",
+    "flight_code": "TG789",
+    "initial_location": {
+      "longitude": 34.955278,
+      "latitude": 29.554722,
+      "date_time": "2023-10-03T17:30:00Z"
+    },
+    "segments": [
+      {
+        "longitude": 34.955278,
+        "latitude": 29.554722,
+        "timespan_seconds": 180
+      },
+      {
+        "longitude": 99.963889,
+        "latitude": 9.546111,
+        "timespan_seconds": 25200
+      },
+      {
+        "longitude": 99.963889,
+        "latitude": 9.546111,
+        "timespan_seconds": 180
+      }
+    ]
+  }
+  

@@ -1,0 +1,12 @@
+const sdfjf = 
+{
+  "topic": "WebSensor",
+  "data": {
+    "BookmarkId": "4611967493484705562",
+    "Name": "test",
+    "Comment": "test2",
+    "DeviceId": "4611967493405164766",
+    "NotificationTime": "2023-09-10T14:27:09+01:00",
+    "NotificationType": "UserComment"
+  }
+}
