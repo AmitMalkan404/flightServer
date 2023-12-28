@@ -5,7 +5,7 @@
   "initial_location": {
     "longitude": 35.04623290164464,
     "latitude": 32.80472278476387,
-    "date_time": "2023-10-03T18:00:00Z"
+    "date_time": "2023-12-23T16:30:00Z"
   },
   "segments": [
     {
@@ -16,7 +16,7 @@
     {
       "longitude": 34.992742619829706,
       "latitude": 32.92563053445752,
-      "timespan_seconds": 180
+      "timespan_seconds": 500
     },
     {
       "longitude": 30.70531057546592,

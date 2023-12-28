@@ -1,12 +1,21 @@
 
 
 export const calculatePositionForAllFlights = (flightsDataArray) => {
-flightsDataArray.forEach(flightData => {
-  const returnData = getCurrentAndPreviousSegmentsWithDateTime(flightData);
-  if (!returnData.includes(undefined)&&!returnData.includes(null)){
-    console.log(calculateCurrentPosition(returnData[0], returnData[1], returnData[2]))
-  }
-});
+  let flightsCurrentPositionArray = []
+  flightsDataArray.forEach(flightData => {
+    const returnData = getCurrentAndPreviousSegmentsWithDateTime(flightData);
+    if (!returnData.includes(undefined)&&!returnData.includes(null)){
+      const flightCurrentPosition = calculateCurrentPosition(returnData[0], returnData[1], returnData[2])
+      const current2DGradient = calculate2DGradient(returnData[0], returnData[1]);
+      // console.log(flightData._id,flightCurrentPosition)
+      flightsCurrentPositionArray.push({
+        "flightId": flightData._id,
+        "currentPosition": flightCurrentPosition,
+        "current2DGradient": current2DGradient
+      })
+    }
+  });
+  return flightsCurrentPositionArray
 }
 
 const getCurrentAndPreviousSegmentsWithDateTime = (flightData) => {
@@ -25,6 +34,7 @@ const getCurrentAndPreviousSegmentsWithDateTime = (flightData) => {
     if (currentTime >= segmentStartTime && currentTime <= segmentEndTime) {
       currentSegment = segment;
       currentSegmentStartTime = segmentStartTime;
+      if (!previousSegment) previousSegment = flightData.initial_location
       break;
     }
 
@@ -44,3 +54,8 @@ const calculateCurrentPosition = (currentSegment, previousSegment, currentSegmen
   return [currentLongitude, currentLatitude];
 }
 
+const calculate2DGradient = (currentSegment, previousSegment) => {
+  let bias = 0
+  if (currentSegment.latitude<previousSegment.latitude) bias=180 
+  return (Math.atan((currentSegment.longitude-previousSegment.longitude)/(currentSegment.latitude-previousSegment.latitude))/Math.PI)*180+bias
+}

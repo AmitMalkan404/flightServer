@@ -3,24 +3,44 @@
   "company_name": "El Al",
   "flight_code": "LY001",
   "initial_location": {
-    "longitude": 34.872222,
-    "latitude": 32.001111,
-    "date_time": "2023-10-03T18:00:00Z"
+    "longitude": 34.895153,
+    "latitude": 31.998819,
+    "date_time": "2023-12-23T21:00:00Z"
   },
   "segments": [
     {
-      "longitude": 11.4056668,
-      "latitude": 40.2546221,
+      "longitude": 34.85185458048559,
+      "latitude": 32.02222855513553,
+      "timespan_seconds": 45
+    },
+    {
+      "longitude": 25.795898,
+      "latitude": 41.324232,
       "timespan_seconds": 180
+    },
+    {
+      "longitude": 5.888672,
+      "latitude": 45.435081,
+      "timespan_seconds": 880
     },
     {
       "longitude": -60.84775,
       "latitude": 28.738866,
-      "timespan_seconds": 21600
+      "timespan_seconds": 5400
     },
     {
-      "longitude": -80.152222,
-      "latitude": 26.074444,
+      "longitude": -76.98064259338264,
+      "latitude": 27.51888286290012,
+      "timespan_seconds": 2400
+    },
+    {
+      "longitude": -80.0731866752785,
+      "latitude": 26.078958849061383,
+      "timespan_seconds": 1800
+    },
+    {
+      "longitude": -80.166765051643,
+      "latitude": 26.077031803577988,
       "timespan_seconds": 180
     }
   ]

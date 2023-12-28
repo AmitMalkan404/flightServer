@@ -3,25 +3,60 @@
     "company_name": "Arkia",
     "flight_code": "AK1369",
     "initial_location": {
-      "longitude": 35.5918599349823,
-      "latitude": 33.211249527352734,
-      "date_time": "2023-10-03T16:15:00Z"
+      "longitude": 35.6002383236563,
+      "latitude": 33.22106153749539,
+      "date_time": "2023-12-23T21:20:00Z"
     },
     "segments": [
       {
-        "longitude": 35.5918599349823,
-        "latitude": 33.211249527352734,
+        "longitude": 35.57977180808307,
+        "latitude": 33.1978035454567,
         "timespan_seconds": 180
       },
       {
-        "longitude": 36.900000,
-        "latitude": 32.181667,
-        "timespan_seconds": 10800
+        "longitude": 35.550512316352666,
+        "latitude": 33.096242082602885,
+        "timespan_seconds": 540
       },
       {
-        "longitude": 30.800278,
-        "latitude": 36.900833,
-        "timespan_seconds": 180
+        "longitude": 35.437372762628186,
+        "latitude": 32.903342469096195,
+        "timespan_seconds": 960
+      },
+      {
+        "longitude": 34.01609216097424,
+        "latitude": 33.157814362593186,
+        "timespan_seconds": 720
+      },
+      {
+        "longitude": 29.120406370953692,
+        "latitude": 35.15528233059273,
+        "timespan_seconds": 900
+      },
+      {
+        "longitude": 22.88244955516268,
+        "latitude": 39.90864205825857,
+        "timespan_seconds": 450
+      },
+      {
+        "longitude": 22.69152520548831,
+        "latitude": 40.47158177811257,
+        "timespan_seconds": 660
+      },
+      {
+        "longitude": 22.86701210658718,
+        "latitude": 40.53284126058087,
+        "timespan_seconds": 90
+      },
+      {
+        "longitude": 22.91190155666042,
+        "latitude": 40.531018755170784,
+        "timespan_seconds": 60
+      },
+      {
+        "longitude": 22.9863167635696,
+        "latitude": 40.517060879363136,
+        "timespan_seconds": 40
       }
     ]
   }

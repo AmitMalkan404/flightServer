@@ -3,26 +3,76 @@
     "company_name": "Thai Airways",
     "flight_code": "TG789",
     "initial_location": {
-      "longitude": 34.955278,
-      "latitude": 29.554722,
-      "date_time": "2023-10-03T17:30:00Z"
+      "longitude": 35.01922690716026,
+      "latitude": 29.745524068905233,
+      "date_time": "2023-12-23T16:35:00Z"
     },
     "segments": [
-      {
-        "longitude": 34.955278,
-        "latitude": 29.554722,
-        "timespan_seconds": 180
-      },
-      {
-        "longitude": 99.963889,
-        "latitude": 9.546111,
-        "timespan_seconds": 25200
-      },
-      {
-        "longitude": 99.963889,
-        "latitude": 9.546111,
-        "timespan_seconds": 180
-      }
-    ]
+		{
+		  "longitude": 35.00133100770073,
+		  "latitude": 29.678431024257367,
+		  "timespan_seconds": 50
+		},
+		{
+		  "longitude": 34.93177968686681,
+		  "latitude": 29.603126980368025,
+		  "timespan_seconds": 40
+		},
+		{
+		  "longitude": 34.88665847252683,
+		  "latitude": 29.47691069930607,
+		  "timespan_seconds": 45
+		},
+		{
+		  "longitude": 34.916255162226875,
+		  "latitude": 29.3971074869726,
+		  "timespan_seconds": 20
+		},
+		{
+		  "longitude": 35.116610603661826,
+		  "latitude": 29.21698288508008,
+		  "timespan_seconds": 90
+		},
+		{
+		  "longitude": 49.89375229728367,
+		  "latitude": 22.567542779149544,
+		  "timespan_seconds": 4340
+		},
+		{
+		  "longitude": 99.95378706437289,
+		  "latitude": 10.040063842672245,
+		  "timespan_seconds": 22260
+		},
+		{
+		  "longitude": 99.98052717878706,
+		  "latitude": 10.012217251335779,
+		  "timespan_seconds": 35
+		},
+		{
+		  "longitude": 99.99861674432265,
+		  "latitude": 9.952400996363767,
+		  "timespan_seconds": 100
+		},
+		{
+		  "longitude": 100.036739,
+		  "latitude": 9.718401046345637,
+		  "timespan_seconds": 15
+		},
+		{
+		  "longitude": 100.05304683081054,
+		  "latitude": 9.67103285672377,
+		  "timespan_seconds": 15
+		},
+		{
+		  "longitude": 100.05895953250128,
+		  "latitude": 9.58681217560858,
+		  "timespan_seconds": 15
+		},
+		{
+		  "longitude": 100.06314853761467,
+		  "latitude": 9.54106324850242,
+		  "timespan_seconds": 15
+		}
+	]
   }
   

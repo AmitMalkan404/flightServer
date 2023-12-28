@@ -3,20 +3,65 @@
   "company_name": "El-Al",
   "flight_code": "LY006",
   "initial_location": {
-    "longitude": 20.0,
-    "latitude": 30.2,
-    "date_time": "2020-10-03T21:10:00Z"
+    "longitude": 34.82084110789279,
+    "latitude": 31.84696063697431,
+    "date_time": "2023-12-23T16:20:00Z"
   },
   "segments": [
-	{
-      "longitude": 20.0,
-      "latitude": 30.2,
-      "timespan_seconds": 1
+    {
+      "longitude": 34.85570995560587,
+      "latitude": 31.79734226159905,
+      "timespan_seconds": 30
     },
     {
-      "longitude": 57.52,
-      "latitude": 19.02,
-      "timespan_seconds": 600
+      "longitude": 34.90475795143778,
+      "latitude": 30.80366830893152,
+      "timespan_seconds": 300
+    },
+    {
+      "longitude": 39.82077075170243,
+      "latitude": 28.67566286825491,
+      "timespan_seconds": 1200
+    },
+    {
+      "longitude": 54.6294407672525,
+      "latitude": 20.887989411406654,
+      "timespan_seconds": 1080
+    },
+    {
+      "longitude": 86.94422242758779,
+      "latitude": -3.763820864605812,
+      "timespan_seconds": 1800
+    },
+    {
+      "longitude": 122.29507934254717,
+      "latitude": -28.69945677871924,
+      "timespan_seconds": 2100
+    },
+    {
+      "longitude": 150.04396528179726,
+      "latitude": -34.20657906452573,
+      "timespan_seconds": 960
+    },
+    {
+      "longitude": 151.08162415214065,
+      "latitude": -34.06523521955824,
+      "timespan_seconds": 540
+    },
+    {
+      "longitude": 151.18499249756056,
+      "latitude": -33.985777077997014,
+      "timespan_seconds": 180
+    },
+    {
+      "longitude": 151.18541805253437,
+      "latitude": -33.98264126730185,
+      "timespan_seconds": 10
+    },
+    {
+      "longitude": 151.17544149269682,
+      "latitude": -33.94402977577341,
+      "timespan_seconds": 20
     }
   ]
 }

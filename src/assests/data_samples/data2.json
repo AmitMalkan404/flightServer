@@ -1,11 +1,11 @@
 {
-  "passengers": 115,
-  "company_name": "Arkia",
-  "flight_code": "AK1369",
+  "passengers": 160,
+  "company_name": "Israir",
+  "flight_code": "ISRA445",
   "initial_location": {
     "longitude": 35.046150985735935,
     "latitude": 32.804886770992105,
-    "date_time": "2023-10-03T18:05:00Z"
+    "date_time": "2023-12-23T21:00:00Z"
   },
   "segments": [
 	{
@@ -26,22 +26,17 @@
     {
       "longitude": 32.677290076096746,
       "latitude": 34.65620170572078,
-      "timespan_seconds": 20
+      "timespan_seconds": 520
     },
     {
       "longitude": 32.59046918682597,
       "latitude": 34.6991489434691,
-      "timespan_seconds": 10
+      "timespan_seconds": 120
     },
     {
       "longitude": 32.528740961014,
       "latitude": 34.70774018477817,
-      "timespan_seconds": 10
-    },
-    {
-      "longitude": 32.59046918682597,
-      "latitude": 34.6991489434691,
-      "timespan_seconds": 5
+      "timespan_seconds": 360
     },
     {
       "longitude": 32.47092844217923,
