@@ -50,7 +50,7 @@ app.listen(port, () => {
 });
 
 // Define a function to be executed every 2 seconds
-function printSomething() {
+function notifyCurrentLocations() {
   if (flightsDataArray) {
     const notificationData = calculatePositionForAllFlights(flightsDataArray);
     const notificationDataJson = JSON.stringify({
@@ -64,4 +64,4 @@ function printSomething() {
 }
 
 // Set up an interval to call the calculation function every 0.1 second and send it to the listners
-setInterval(printSomething, 100);
+setInterval(notifyCurrentLocations, 100);
