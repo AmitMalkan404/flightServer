@@ -2,12 +2,14 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors'; 
 import { WebSocketServer } from 'ws';
+import dotenv from 'dotenv';
 
 import {connectToDatabase} from './src/dbConnect.js';
 import { calculatePositionForAllFlights } from './src/flightRouteCalculator.js';
 import { flightsDataArray } from './src/db.Services/getFlights.service.js';
 import { removeObjectWithId } from './src/server.utils.js'
 
+dotenv.config();
 const app = express();
 app.use(bodyParser.json());
 app.use(cors());
@@ -43,7 +45,7 @@ wss.on('connection', function connection(ws) {
   })
 });
 
-const port = 5555;
+const port = process.env.PORT;
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
   connectToDatabase().catch(console.dir);
@@ -64,4 +66,4 @@ function notifyCurrentLocations() {
 }
 
 // Set up an interval to call the calculation function every 0.1 second and send it to the listners
-setInterval(notifyCurrentLocations, 100);
+setInterval(notifyCurrentLocations, process.env.INTERVAL_TIME);
